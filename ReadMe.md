@@ -53,7 +53,7 @@ This is a Python implementation of the classic **Rock Paper Scissors** game, wit
 
 ## Author
 
-This project was created as part of a school project. Feel free to modify and expand it as you like!
+This project was created for educational purposes. Feel free to modify and expand it as you like!
 
 ## License
 
