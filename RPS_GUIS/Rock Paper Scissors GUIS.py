@@ -84,7 +84,7 @@ class game(tk.Frame):
             self.label = tk.Label(self, text="Computer wins!", font=font)
             self.label.pack()
 
-        # Wait for 2 seconds before showing rematch options
+        # Wait for 1,5 seconds before showing rematch options
         self.after(1500, self.show_rematch_options)
 
     def show_rematch_options(self):
@@ -176,7 +176,7 @@ root.title("Rock Paper Scissors")
 root.geometry("800x500")
 
 # Load the animated GIF
-image_path = "C:/Users/Utilisateur/Desktop/École/Projet/Rock paper scissors/Roche-papier-ciseaux/1_aZYAQMfiaSiJVucrbiyKqA.gif"
+image_path = "...Rock paper scissors/Roche-papier-ciseaux/1_aZYAQMfiaSiJVucrbiyKqA.gif" # Add the directory file of the gif here.
 orignal_image = Image.open(image_path)
 
 # Function to update the GIF frames
