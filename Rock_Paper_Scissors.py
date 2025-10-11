@@ -1,4 +1,9 @@
 import random
+from tkinter import *
+import tkinter as tk
+
+
+
 
 def wHich_game():
     x = int(input("Welcome! Which type of rock paper scissors do you want to play? The classic one (1)," \
@@ -130,6 +135,5 @@ def bbt_rps():
             wHich_game()
 
 
-wHich_game()
+#wHich_game()
 
-    
